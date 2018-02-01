@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sdoshi.usbdatatransfer.MainActivity">
+
+    <Button
+        android:id="@+id/getFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Custom File"/>
+
+    <Button
+        android:id="@+id/copyCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get My CV"/>
+
+    <Button
+        android:id="@+id/copyFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paste File"/>
+
+    <Button
+        android:id="@+id/copyPasteFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy And Paste File"/>
+
+    <!--<Button
+        android:id="@+id/getUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fix Usb Path"/>
+
+    <Button
+        android:id="@+id/copyOnMyUsbFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy to Usb"/>-->
+
+</LinearLayout>
